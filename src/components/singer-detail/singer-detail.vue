@@ -40,7 +40,7 @@
 					if(res.code === ERR_OK){
 						this.songs = this._normalizeSongs(res.data.list)
 						//获取一个歌手的所有歌
-						console.log(this.songs)
+						//console.log(this.songs)
 					}
 				})
 			},

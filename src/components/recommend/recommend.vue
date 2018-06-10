@@ -67,7 +67,6 @@
           path: `/recommend/${item.dissid}`
         })
         this.setDisc(item)
-        console.log(item)
       },
 			_getRecommend() {
 				getRecommend().then((res) => {
